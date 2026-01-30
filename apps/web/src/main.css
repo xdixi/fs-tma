@@ -1,0 +1,82 @@
+/**
+ * Базовые стили для Telegram Mini App
+ */
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-primary: #0088cc;
+  --color-border: #e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.app-header {
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.status {
+  text-align: center;
+}
+
+.status-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.status-subtext {
+  font-size: 1rem;
+  color: var(--color-primary);
+}
+
+.app-footer {
+  padding: 1rem;
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+  font-size: 0.875rem;
+  color: #999;
+}

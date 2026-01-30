@@ -1,0 +1,22 @@
+{
+  "name": "tg-futsal-mini-app",
+  "version": "0.0.0",
+  "description": "Telegram Mini App для локальной лиги футзала — игра прогнозов с виртуальной валютой",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:bot": "pnpm -F @tg-futsal/bot dev",
+    "dev:api": "pnpm -F @tg-futsal/api dev",
+    "dev:web": "pnpm -F @tg-futsal/web dev",
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "type-check": "pnpm -r type-check"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

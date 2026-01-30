@@ -1,0 +1,20 @@
+{
+  "name": "@tg-futsal/bot",
+  "version": "0.0.0",
+  "description": "Telegram Bot для Futsal Mini App",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node --loader tsx src/index.ts",
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "grammy": "^1.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
