@@ -43,6 +43,7 @@ function App() {
             <p className="status-text">⏳ Инициализация...</p>
           </div>
         )}
+        <p>SOSIddddd</p>
       </main>
 
       <footer className="app-footer">

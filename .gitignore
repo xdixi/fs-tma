@@ -24,3 +24,7 @@ build/
 *.log
 npm-debug.log*
 pnpm-debug.log*
+
+# Docs & patch notes
+docs/
+patchnotes/
